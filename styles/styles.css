@@ -33,15 +33,13 @@ a
     color: white;
 }
 
-
-
-.menu-list
+ul
 {
-text-align: left;
-padding-left: 40vw;
+    list-style-position: inside;
+    text-align: center;
 }
 
-.priv
+ol
 {
     text-align: left;
 }
@@ -176,25 +174,6 @@ footer
     .fcolumn2
     {
         text-align: left;
-    }
-
-    /*.menu-column1
-   {
-    float: left;
-    width: 95vw;
-    padding-left: 1vw;
-    padding-right: 1vw;
-   }
-   .menu-column2
-   {
-    float: left;
-    width: 95vw;
-    padding-left: 1vw;
-    padding-right: 1vw;
-   }*/
-    li
-    {
-       padding-left: 5vw;
     }
     iframe
     {
