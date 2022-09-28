@@ -6,7 +6,7 @@ header
 
 body
 {
-    background-image: url('../images/restaurant.jpg');
+    background-image: url('https://github.com/TimMarshall93/Assignment2.github.io/tree/main/images/restaurant.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
