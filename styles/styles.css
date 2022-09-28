@@ -33,6 +33,19 @@ a
     color: white;
 }
 
+
+
+.menu-list
+{
+text-align: left;
+padding-left: 40vw;
+}
+
+.priv
+{
+    text-align: left;
+}
+
 .column1
    {
      float:left;
@@ -55,7 +68,7 @@ a
    {
     text-align: left;
      float:left;
-     width:47%;
+     width:47vw;
      padding:15px;
    }
 
@@ -63,12 +76,33 @@ a
    {
     text-align: right;
      float:left;
-     width:47%;
+     width:47vw;
      padding:15px;
    }
 
+   /*.menu-column1
+   {
+    float: left;
+    width: 47vw;
+    padding-left: 1vw;
+   }
+
+   .menu-column2
+   {
+    float: left;
+    width: 47vw;
+    padding-left: 1vw;
+   }*/
+
 /* Clear floats after the columns */
 .row:after 
+{
+    content: "";   
+     display: table;
+     clear:both;
+}
+
+.menu-row:after 
 {
     content: "";   
      display: table;
@@ -122,6 +156,8 @@ footer
     color: white;
 }
 
+
+
 /* Responsive layout - makes the two columns stack on top of each other
   instead of next to each other -- we cover media queries later
    in the module */
@@ -154,6 +190,30 @@ footer
     .fcolumn2
     {
         text-align: left;
+    }
+
+    /*.menu-column1
+   {
+    float: left;
+    width: 95vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+   }
+   .menu-column2
+   {
+    float: left;
+    width: 95vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+   }*/
+    li
+    {
+       padding-left: 5vw;
+    }
+    iframe
+    {
+        width: 320px;
+        height: 245px
     }
   }
   
