@@ -14,7 +14,6 @@ body
 h1
 {
     text-align: center;
-    padding-right: 8vw;
 }
 
 h2
@@ -143,6 +142,10 @@ footer
    in the module */
    @media screen and (max-width:1040px) 
    {
+    h1
+    {
+        padding-right: 8vw;
+    }
     .fcolumn1
     {
         text-align: left;
