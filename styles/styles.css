@@ -78,8 +78,6 @@ ol
      padding:1vw;
    }
 
-   
-
 /* Clear floats after the columns */
 .row:after 
 {
@@ -88,6 +86,8 @@ ol
      clear:both;
 }
 
+
+/*Dropdown menu properties*/
 .dropbtn 
 {
     background-color: black;
@@ -129,6 +129,7 @@ dropdown-content a
 .dropdown:hover .dropbtn {background-color: black;}
 .fcolumn1 a:hover{text-decoration: underline;}
 
+/*Footer properties*/
 footer 
 {
     background-color: black;
@@ -137,9 +138,9 @@ footer
 
 
 
-/* Responsive layout - makes the two columns stack on top of each other
-  instead of next to each other -- we cover media queries later
-   in the module */
+/* Responsive layout - makes the two fcolumns stack on top of each other
+  instead of next to each other and adjusts appropriate elements to display 
+  better on smaller displays*/
    @media screen and (max-width:1040px) 
    {
     h1
