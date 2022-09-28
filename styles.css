@@ -1,0 +1,152 @@
+header
+{
+    background-color: black;
+    color: white;
+}
+
+body
+{
+    background-image: url('../images/restaurant.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1
+{
+    text-align: center;
+}
+
+h2
+{
+    text-align: center;
+}
+
+main
+{
+    color: white;
+    text-align: center;
+}
+
+a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.column1
+   {
+     float:left;
+     width:30vw;
+     padding:15px;
+   }
+.column2
+   {
+     float:left;
+     width:30vw;
+     padding:15px;
+     text-align: center;
+   }
+.column3
+   {
+     float:left;
+     width:30vw;
+     padding:15px;
+     text-align:right;
+   }
+
+   .fcolumn1
+   {
+    text-align: left;
+     float:left;
+     width:47%;
+     padding:15px;
+   }
+
+   .fcolumn2
+   {
+    text-align: right;
+     float:left;
+     width:47%;
+     padding:15px;
+   }
+
+/* Clear floats after the columns */
+.row:after 
+{
+    content: "";   
+     display: table;
+     clear:both;
+}
+
+.dropbtn 
+{
+    background-color: black;
+    color: white;
+    padding-left: 30px;
+    font-size: 25px;
+    border: none;
+}
+
+.dropdown 
+{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content 
+{
+    display: none;
+    position: absolute;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    width: 200px;
+    padding-left: 10px;
+    z-index: 1;
+}
+
+dropdown-content a 
+{
+    color: black;
+    padding: 1px 1px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover{background-color: white;}
+.dropdown-content a:hover{color: black;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: black;}
+.fcolumn1 a:hover{text-decoration: underline;}
+
+footer 
+{
+    background-color: black;
+    color: white;
+    float: bottom;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other
+  instead of next to each other -- we cover media queries later
+   in the module */
+   @media screen and (max-width:600px) {
+    .column1 {
+        width: 100vw;
+        text-align: left;
+        float: left;
+    }
+    .column2 {
+        width: 100vw;
+        text-align: left;
+        float: left;
+    }
+    .column3 {
+        width: 100vw;
+        text-align: left;
+        float: left;
+    }
+    .fcolumn2
+    {
+        text-align: left;
+    }
+  }
