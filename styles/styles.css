@@ -68,41 +68,22 @@ padding-left: 40vw;
    {
     text-align: left;
      float:left;
-     width:47vw;
-     padding:15px;
+     width:46vw;
+     padding:1vw;
    }
 
    .fcolumn2
    {
     text-align: right;
      float:left;
-     width:47vw;
-     padding:15px;
+     width:46vw;
+     padding:1vw;
    }
 
-   /*.menu-column1
-   {
-    float: left;
-    width: 47vw;
-    padding-left: 1vw;
-   }
-
-   .menu-column2
-   {
-    float: left;
-    width: 47vw;
-    padding-left: 1vw;
-   }*/
+   
 
 /* Clear floats after the columns */
 .row:after 
-{
-    content: "";   
-     display: table;
-     clear:both;
-}
-
-.menu-row:after 
 {
     content: "";   
      display: table;
@@ -163,6 +144,11 @@ footer
    in the module */
    @media screen and (max-width:1040px) 
    {
+    .fcolumn1
+    {
+        text-align: left;
+        width: 100vw;
+    }
     .fcolumn2
     {
         text-align: left;
